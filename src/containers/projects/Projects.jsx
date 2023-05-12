@@ -5,14 +5,13 @@ import './projects.css'
 const projectsData = [
   {
     title: 'IoT project',
-    text:  'Implemented remote control via web for and Arduino working as a thermostat coupled to a fan. Website : HTML, CSS for the frontend; PHP and MySQL on the backend.\
-    Practical part : Arduino compatible development board (ESP8266), temperature sensor(DHT11), DC motor & driver for it.\
-    C++ for the code running on the board.(written in Arduino IDE)'
+    text:  'Implemented remote control via web for and Arduino working as a thermostat coupled to a fan. Website : HTML, CSS for the frontend; PHP and MySQL on the backend.' +
+    'Practical part : Arduino compatible development board (ESP8266), temperature sensor(DHT11), DC motor & driver for it.' +
+    'C++ for the code running on the board.(written in Arduino IDE)'
   },
   {
     title: 'Simon Game',
-    text:  'In the development of this game I learned about DOM manipulation with the jQuery library.\
-    The Simon game is the exciting electronic game of lights and sounds in which players must repeat random sequences of lights by pressing the colored pads in the correct order. It\'s fast-paced play, with lights and sounds that can challenge you.'
+    text:  'In the development of this game I learned about DOM manipulation with the jQuery library.The Simon game is the exciting electronic game of lights and sounds in which players must repeat random sequences of lights by pressing the colored pads in the correct order. It\'s fast-paced play, with lights and sounds that can challenge you.'
   },
   {
     title: 'Weather Web App',
@@ -20,8 +19,7 @@ const projectsData = [
   },
   {
     title: 'Notes Manager',
-    text:  'Fullstack web application using React, Node with Express and MongoDB (Mongoose). I learend to work with NoSQL database.\
-    '
+    text:  'Fullstack web application using React, Node with Express and MongoDB (Mongoose). I learend to work with NoSQL database.'
   }
 ]
 

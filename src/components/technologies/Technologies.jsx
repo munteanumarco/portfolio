@@ -2,12 +2,6 @@ import React from 'react'
 import './technologies.css'
 import saly43 from '../../assets/saly-43.png'
 
-const cardsData = [
-  {
-    title: '',
-    text: ''
-  },
-]
 
 function Technologies() {
   return (

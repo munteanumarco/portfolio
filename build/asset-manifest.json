@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34d518c2.css",
+    "main.js": "/static/js/main.3439807b.js",
+    "static/media/saly-43.png": "/static/media/saly-43.370303b9dadb4eb8503a.png",
+    "static/media/saly-13.png": "/static/media/saly-13.74025544dc524038a8e2.png",
+    "index.html": "/index.html",
+    "main.34d518c2.css.map": "/static/css/main.34d518c2.css.map",
+    "main.3439807b.js.map": "/static/js/main.3439807b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34d518c2.css",
+    "static/js/main.3439807b.js"
+  ]
+}
