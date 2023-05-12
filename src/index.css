@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200;300;400;500;700;800&family=Ubuntu&display=swap");
+
+:root {
+    --font-family: 'Poppins', sans-serif;
+    --gradient-text-orange: linear-gradient(90deg, #F59E0B 39.95%, #EF4444 77.15%);
+    --gradient-text-pink: linear-gradient(90deg, #8B5CF6 0%, #EC4899 43.9%);
+    --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+    --color-footer: #000000;
+}

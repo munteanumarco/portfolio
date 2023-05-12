@@ -1,0 +1,77 @@
+.pfo__projects {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+   
+
+     /* ff 3.6+ */
+     background:-moz-radial-gradient(circle at 14% 0%, rgba(0, 0, 0, 1) 5%, rgba(31, 17, 76, 0.81) 46%, rgba(20, 29, 76, 1) 74%, rgba(16, 16, 7, 1) 99%);
+
+     /* safari 5.1+,chrome 10+ */
+     background:-webkit-radial-gradient(circle at 14% 0%, rgba(0, 0, 0, 1) 5%, rgba(31, 17, 76, 0.81) 46%, rgba(20, 29, 76, 1) 74%, rgba(16, 16, 7, 1) 99%);
+ 
+     /* opera 11.10+ */
+     background:-o-radial-gradient(circle at 14% 0%, rgba(0, 0, 0, 1) 5%, rgba(31, 17, 76, 0.81) 46%, rgba(20, 29, 76, 1) 74%, rgba(16, 16, 7, 1) 99%);
+ 
+     /* ie 10+ */
+     background:-ms-radial-gradient(circle at 14% 0%, rgba(0, 0, 0, 1) 5%, rgba(31, 17, 76, 0.81) 46%, rgba(20, 29, 76, 1) 74%, rgba(16, 16, 7, 1) 99%);
+ 
+     /* global 92%+ browsers support */
+     background:radial-gradient(circle at 14% 0%, rgba(0, 0, 0, 1) 5%, rgba(31, 17, 76, 0.81) 46%, rgba(20, 29, 76, 1) 74%, rgba(16, 16, 7, 1) 99%);          
+}
+
+.pfo__projects-heading {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+}
+.pfo__projects-heading h1 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    max-width: 510px;
+    line-height: 45px;
+}
+.pfo__projects-heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+}
+
+
+.pfo__projects-container {
+    flex: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: cneter;
+    flex-direction: column;
+    padding: 5rem 10rem;
+}
+
+@media screen and (max-width: 990px) {
+    .pfo__projects {
+        flex-direction: column;
+    }
+
+    .pfo__projects-heading {
+        margin: 0 0 2rem 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .pfo__projects-heading h1 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .pfo__projects-container {
+        padding: 1rem;
+    }
+}
