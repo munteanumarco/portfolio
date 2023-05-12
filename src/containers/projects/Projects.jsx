@@ -6,8 +6,8 @@ const projectsData = [
   {
     title: 'IoT project',
     text:  'Implemented remote control via web for and Arduino working as a thermostat coupled to a fan. Website : HTML, CSS for the frontend; PHP and MySQL on the backend.' +
-    'Practical part : Arduino compatible development board (ESP8266), temperature sensor(DHT11), DC motor & driver for it.' +
-    'C++ for the code running on the board.(written in Arduino IDE)'
+     + 'Practical part : Arduino compatible development board (ESP8266), temperature sensor(DHT11), DC motor & driver for it.' +
+    + 'C++ for the code running on the board.(written in Arduino IDE)'
   },
   {
     title: 'Simon Game',

@@ -2,7 +2,6 @@ import React from 'react'
 import './technologies.css'
 import saly43 from '../../assets/saly-43.png'
 
-
 function Technologies() {
   return (
     <div className='pfo__technologies section__padding' id='technologies'>
